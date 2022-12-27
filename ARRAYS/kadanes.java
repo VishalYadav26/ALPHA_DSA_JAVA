@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class kadanes {
-    
+    //kadane
 // 	public static void maxSubarraySum(int numbers[]) {
 //         int currsum =0;
 // 		int maxsum= Integer.MIN_VALUE;

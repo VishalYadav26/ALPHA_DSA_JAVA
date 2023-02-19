@@ -4,7 +4,7 @@ public class ContainerWithMostWater {
     
     public static int storeWater(ArrayList<Integer> height){
         int maxWater = 0;
-        //brutefore
+        //brutefore n^2
         for(int i =0;i<height.size()-1;i++){
             for(int j =i+1;j<height.size();j++){
                 int ht = Math.min(height.get(i),height.get(j));

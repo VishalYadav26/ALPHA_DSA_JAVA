@@ -1,5 +1,9 @@
 public class GridWays {
-    
+    //T(n) => 2^(n+m) = Exponential
+
+    //2nd Method Optimised Approach Linear TC
+    //Mathematical method
+    // (n-1 + m-1)!/(n-1)!(m-1)! = O(n+m) => Linear
 
     public static int gridWays(int i ,int  j, int n , int m){
         //base case
